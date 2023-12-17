@@ -4,17 +4,30 @@
     "indexes": "firestore.indexes.json"
   },
   "hosting": {
+    "site": "howhotismyshed",
     "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
     ]
+  },
+  "emulators": {
+    "firestore": {
+      "host": "127.0.0.1",
+      "port": 8280
+    },
+    "logging": {
+      "host": "127.0.0.1",
+      "port": 8285
+    },
+    "hosting": {
+      "host": "127.0.0.1",
+      "port": 45000
+    },
+    "ui": {
+      "enabled": true
+    },
+    "singleProjectMode": true
   }
 }

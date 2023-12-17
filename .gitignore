@@ -9,6 +9,9 @@ __pycache__/
 # Node
 node_modules/
 
+# creds
+.json
+
 # Distribution / packaging
 .Python
 build/
@@ -79,6 +82,7 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.ipynb
 
 # IPython
 profile_default/

@@ -1,4 +1,10 @@
 {
-  "indexes": [],
+  "indexes": [
+    {
+      "collectionGroup": "sensor-data",
+      "queryScope": "COLLECTION",
+      "fields": []
+    }
+  ],
   "fieldOverrides": []
 }

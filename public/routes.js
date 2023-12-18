@@ -17,7 +17,8 @@
 
 // Create the route definitions with the default route
 var routes = [
-    { route: "home", content_url: "modules/home.html" }
+    { route: "home", content_url: "home.html" },
+    { route: "history", content_url: "history.html" }
 ];
 
 // default to an invalid route so we have to route on load
